@@ -76,7 +76,6 @@ class GenerateUserActivity:
 
 
 def createFakeCSV():
-    fake = Faker('ru-RU')
     users = []
     activities = []
     activity = GenerateUserActivity()
@@ -105,4 +104,5 @@ def createFakeCSV():
 
 
 if __name__ == '__main__':
+    fake = Faker('ru-RU')
     createFakeCSV()
